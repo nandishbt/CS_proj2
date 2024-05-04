@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    
+
+  
+    
+}
+
+#left{
+    width: 48%;
+    height: 80%;
+    /* background-color: brown; */
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 80px;
+    margin-bottom: 15px;
+}
+
+#left h1{
+    font-size: 100px;
+    font-weight: 500;
+    
+}
+
+#btn{
+    width: fit-content;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 7px 10px;
+    gap: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+#color1{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: beige;
+}
+#color2{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(44, 19, 86);
+}
+
+#text h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#text p{
+    width: 70%;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+#right{
+    position: relative;
+    width: 32%;
+    height: 70%;
+    /* background-color: rgb(42, 61, 165); */
+   
+}
+
+#top{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#top i{
+    color: goldenrod;
+}
+
+#right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+  
+}
+
+#right h2{
+    position: absolute;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    left: -7%;
+   bottom: 5%;
+   font-weight: 500;
+
+
+}
+.atb{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+   
+    border-radius: 50%;
+    background-color: rgb(21, 19, 34);
+    top: 25%;
+    right: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
